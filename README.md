@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Abre em `http://localhost:3000`.
+Abre em `https://clearrun-taupe.vercel.app/`.
 
 ## Páginas
 
