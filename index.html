@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0a0a1a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClearRun</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏁</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { background: #0a0a1a; -webkit-tap-highlight-color: transparent; }
+      html { font-size: 16px; }
+      input, select, textarea, button { font-size: 16px; } /* prevent iOS zoom */
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #0a0a1a; }
+      ::-webkit-scrollbar-thumb { background: #2a2a5a; }
+      ::-webkit-scrollbar-thumb:hover { background: #00ff88; }
+      @media (max-width: 480px) {
+        html { font-size: 14px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
